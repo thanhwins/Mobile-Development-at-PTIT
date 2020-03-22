@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Think</string>
+    <string name="toast_message">"1.   Nhập tên của bạn.
+
+ 2.   Nhập địa chỉ email.
+        Ví dụ:   abc@xyz.com
+
+ 3.   Nhập mật khẩu.
+
+              Chúc vui vẻ! ☺</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_navigation_activity">Lớp 6 nhóm 7</string>
+    <string name="title_activity_navigation_">Navigation_Activity</string>
+    <string name="title_welcome_2">Chào mừng quay trở lại</string>
+    <string name="title_activity_about_us">About me</string>
+    <string name="note">❤ Hàng trăm câu hỏi thú vị với 10 chủ đề khác nhau đang chờ bạn khám phá ❤.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_questions">Questions</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_score_card">ScoreCard</string>
+    <string name="title_activity_setting_activity">Settings</string>
+    <string name="email_content">Tôi vừa trải nghiệm 1 ứng dụng rất bổ ích và thú vị. Hãy thử thưởng thức nó nhé\n\nBạn có thể tải xuống ứng dụng tại đây:\n\n </string>
+    <string name="link"><u>https://drive.google.com/open?id=1Uevx4A_pohkIOWMfZp4TWWKAqE2WSvCO</u></string>
+    <string name="last_content">\n\nChúc bạn 1 ngày vui vẻ.</string>
+
+</resources>

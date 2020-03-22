@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.samsung.tracnghiem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/question"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Control.MainActivity"
+            android:label="Lớp 6 nhóm 7"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Control.Navigation_Activity"
+            android:label="QuizBook"
+            android:parentActivityName=".Control.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.samsung.tracnghiem.Control.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Control.MainActivity$AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".Control.Navigation_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.samsung.tracnghiem.Control.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Control.Questions"
+            android:label="Questions"
+            android:parentActivityName=".Control.Navigation_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.samsung.tracnghiem.Control.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Control.Result"
+            android:label="Result" />
+        <activity
+            android:name=".Control.ScoreCard"
+            android:label="High Score"
+            android:parentActivityName=".Control.Navigation_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.samsung.tracnghiem.Control.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Control.Help"
+            android:label="Help" />
+        <activity
+            android:name=".Control.Setting_activity"
+            android:label="@string/title_activity_setting_activity"
+            android:parentActivityName=".Control.Navigation_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.samsung.tracnghiem.Control.Navigation_Activity" />
+        </activity>
+    </application>
+
+</manifest>
